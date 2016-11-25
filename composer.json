@@ -1,0 +1,30 @@
+{
+    "name": "looking4soul/ipgeo",
+    "description": "Find geo location of ip",
+    "keywords": ["ip", "geo"],
+    "homepage": "https://github.com/looking4soul/ipgeo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "looking4soul",
+            "homepage": "https://github.com/looking4soul",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "x.mail.i@qq.com"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "predis/predis": "^1.1.1",
+	"league/csv": "^8.1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Looking4soul\\IpGeo\\": "src/"
+        }
+    }
+}
