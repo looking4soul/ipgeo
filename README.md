@@ -7,7 +7,7 @@ Find geo location of ip.
 ###Install
 
 ```bash
-composer install
+composer require looking4soul/ipgeo
 ```
 
 ###Set Up Redis

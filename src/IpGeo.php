@@ -5,7 +5,7 @@ class IpGeo
 {
 	private $redis;
 
-	public function __construct($block, $location)
+	public function __construct()
 	{
 		$this->redis = new \Predis\Client('tcp://127.0.0.1:6379');
 	}
